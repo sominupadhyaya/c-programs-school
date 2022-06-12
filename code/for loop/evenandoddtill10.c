@@ -2,7 +2,7 @@
 int main()
 {
     long int i;
-    for (size_t i = 0; i <= 100; i++){
+    for (size_t i = 0; i <= 10; i++){
         if (i%2 != 0)
         {
             printf("Odd number :  %ld \n" , i);

@@ -1,3 +1,6 @@
+// print fizz if divisible by 3 buzz if div by 5 and fizzbuzz if 
+// div by 3 and 5
+
 #include <stdio.h>
 int main () {
 int i;

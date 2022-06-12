@@ -4,6 +4,10 @@ int main()
     int age;
     printf("Enter the age : ");
     scanf("%d" , &age);
-    age >= 18 ? printf("Eligible to vote") : printf("Not eligible to vote");
+   if(age >= 18){
+       printf("Eligible to vote");
+   }else{
+       print("Not eligible to vote");
+   }
     return 0;
 }
